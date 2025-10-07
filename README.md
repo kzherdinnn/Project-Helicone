@@ -1,67 +1,71 @@
-# Kode Terbang: Project Helicone 🚀
+# Project Helicone: AI Conversation Gateway 🚀
 
 <p align="center">
   <img style="margin-right: 8px;" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img style="margin-right: 8px;" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm">
   <img style="margin-right: 8px;" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+  <img style="margin-right: 8px;" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm">
   <img style="margin-right: 8px;" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 </p>
 
-**Deskripsi 📝**
+## Table of Contents
+* [Overview](#overview)
+* [Why Project-Helicone?](#why-project-helicone)
+* [Tech Stack](#tech-stack-️)
+* [Getting Started](#getting-started-)
+* [Contributing](#contributing-)
+* [License](#license-)
 
-Project Helicone adalah sebuah proyek JavaScript yang bertujuan untuk... (isi dengan tebakan yang paling masuk akal berdasarkan file yang ada, misal: "menyediakan kerangka dasar untuk membangun aplikasi web interaktif." atau "mengeksplorasi penggunaan JavaScript dalam visualisasi data.").  Meskipun deskripsi spesifik belum tersedia, struktur repositori ini menunjukkan fondasi yang kuat untuk pengembangan lebih lanjut.  Kontribusi dan ide-ide untuk mengembangkan proyek ini sangat diharapkan!
+## Overview
+Project-Helicone is a developer-centric tool designed to simplify the integration of conversational AI into applications. It facilitates user interactions with language models by capturing prompts and retrieving responses through **Groq**, with **Helicone** acting as an observability and analytics platform. This ensures optimized and monitored API access within a cohesive architecture.
 
-**Fitur Utama ✨**
+## Why Project-Helicone?
+This project aims to streamline the development of AI-powered conversational interfaces. The core features include:
 
-*   **Modular Design 🧩**: Proyek ini kemungkinan dirancang dengan arsitektur modular, memungkinkan kemudahan pemeliharaan dan peningkatan.
-*   **Dependency Management 📦**:  Penggunaan `package.json` dan `package-lock.json` memastikan pengelolaan dependensi yang konsisten dan terpercaya.
-*   **Extensible Architecture 🏗️**:  Kemungkinan besar proyek ini dirancang untuk mudah diperluas dengan fitur dan fungsionalitas baru.
+* **🧩🔑 Environment Management**: Securely manage API keys through `.env` configurations for seamless and safe setup.
+* **🚀⚡ API Optimization & Observability**: Leverage **Groq** for faster, more efficient API calls to language models, and **Helicone** to monitor, debug, and analyze API usage.
+* **💬📝 Interactive Conversational Entry Point**: The script serves as an interactive terminal for executing and managing conversational queries in real-time.
+* **🔧🛠 Dependency Orchestration**: Handles all necessary dependencies and configurations to ensure smooth application operation.
+* **🌐🌟 Integration Ready**: Easily embed within larger applications to enhance AI-driven functionalities.
 
-**Tech Stack 🛠️**
+## Tech Stack 🛠️
+* **Core Language**: JavaScript
+* **Runtime**: Node.js
+* **LLM Provider**: Groq
+* **Observability Platform**: Helicone
+* **Package Manager**: npm
+* **Version Control**: Git
 
-*   JavaScript
-*   Node.js (kemungkinan, berdasarkan `package.json`)
-*   npm (kemungkinan, berdasarkan `package.json` dan `package-lock.json`)
-*   Git (untuk version control)
+## Getting Started 🏁
+Follow these steps to set up and run the project in your local environment.
 
-**Instalasi & Menjalankan 🚀**
+### Prerequisites
+Make sure you have the following installed:
+* [Node.js](https://nodejs.org/en/) (which includes npm)
+* [Git](https://git-scm.com/)
 
-Ikuti langkah-langkah berikut untuk menyiapkan dan menjalankan proyek di lingkungan lokal Anda:
-
-1.  Clone repositori:
+### Installation
+1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/kzherdinnn/Project-Helicone
+    git clone [https://github.com/kzherdinnn/Project-Helicone.git](https://github.com/kzherdinnn/Project-Helicone.git)
     ```
 
-2.  Masuk ke direktori:
+2.  **Navigate to the project directory:**
     ```bash
     cd Project-Helicone
     ```
 
-3.  Install dependensi:
+3.  **Install dependencies:**
     ```bash
     npm install
     ```
-
-4.  Jalankan proyek:
-    ```bash
-    npm start
+4.  **Set up environment variables:**
+    Create a `.env` file in the root of the project and add your API keys:
+    ```env
+    GROQ_API_KEY="gsk_YourGroqApiKey"
+    HELICONE_API_KEY="sk-helicone-YourHeliconeApiKey"
     ```
-    (Jika `npm start` tidak berfungsi, periksa skrip dalam `package.json` untuk perintah yang benar. Mungkin `node demo.js` jika itu file utama.)
 
-**Cara Berkontribusi 🤝**
-
-Kami sangat senang jika Anda ingin berkontribusi pada Project Helicone! Berikut adalah cara yang bisa Anda lakukan:
-
-1.  Fork repositori ini.
-2.  Buat branch baru dengan nama yang deskriptif: `git checkout -b fitur-baru`
-3.  Lakukan perubahan dan commit dengan pesan yang jelas: `git commit -m "Menambahkan fitur baru"`
-4.  Push ke branch Anda: `git push origin fitur-baru`
-5.  Buat Pull Request.
-
-**Lisensi 📄**
-
-Lisensi proyek tidak disebutkan.
-
-
----
+### Usage
+Run the interactive script from your terminal:
+```bash
+node demo.js
