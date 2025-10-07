@@ -1,4 +1,4 @@
-# Project Helicone: AI Conversation Gateway 🚀
+# Project Helicone: Gerbang Percapakan AI 🚀
 
 <p align="center">
   <img style="margin-right: 8px;" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
@@ -7,65 +7,73 @@
   <img style="margin-right: 8px;" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 </p>
 
-## Table of Contents
-* [Overview](#overview)
-* [Why Project-Helicone?](#why-project-helicone)
-* [Tech Stack](#tech-stack-️)
-* [Getting Started](#getting-started-)
-* [Contributing](#contributing-)
-* [License](#license-)
+## Daftar Isi
+* [Gambaran Umum](#gambaran-umum)
+* [Mengapa Project-Helicone?](#mengapa-project-helicone)
+* [Teknologi yang Digunakan](#teknologi-yang-digunakan-️)
+* [Cara Memulai](#cara-memulai-)
+* [Cara Berkontribusi](#cara-berkontribusi-)
+* [Lisensi](#lisensi-)
 
-## Overview
-Project-Helicone is a developer-centric tool designed to simplify the integration of conversational AI into applications. It facilitates user interactions with language models by capturing prompts and retrieving responses through **Groq**, with **Helicone** acting as an observability and analytics platform. This ensures optimized and monitored API access within a cohesive architecture.
+---
 
-## Why Project-Helicone?
-This project aims to streamline the development of AI-powered conversational interfaces. The core features include:
+## Gambaran Umum
+Project-Helicone adalah sebuah alat yang dirancang untuk developer guna menyederhanakan integrasi AI percakapan ke dalam aplikasi. Proyek ini memfasilitasi interaksi pengguna dengan model bahasa (LLM) dengan cara menangkap *prompt* dan mengambil respons melalui **Groq**, sementara **Helicone** bertindak sebagai platform untuk observabilitas dan analisis. Hal ini memastikan akses API yang teroptimalkan dan termonitor dalam arsitektur yang kohesif.
 
-* **🧩🔑 Environment Management**: Securely manage API keys through `.env` configurations for seamless and safe setup.
-* **🚀⚡ API Optimization & Observability**: Leverage **Groq** for faster, more efficient API calls to language models, and **Helicone** to monitor, debug, and analyze API usage.
-* **💬📝 Interactive Conversational Entry Point**: The script serves as an interactive terminal for executing and managing conversational queries in real-time.
-* **🔧🛠 Dependency Orchestration**: Handles all necessary dependencies and configurations to ensure smooth application operation.
-* **🌐🌟 Integration Ready**: Easily embed within larger applications to enhance AI-driven functionalities.
+---
 
-## Tech Stack 🛠️
-* **Core Language**: JavaScript
-* **Runtime**: Node.js
-* **LLM Provider**: Groq
-* **Observability Platform**: Helicone
-* **Package Manager**: npm
-* **Version Control**: Git
+## Mengapa Project-Helicone?
+Proyek ini bertujuan untuk mempercepat pengembangan antarmuka percakapan yang didukung AI. Fitur-fitur utamanya meliputi:
 
-## Getting Started 🏁
-Follow these steps to set up and run the project in your local environment.
+* **🧩🔑 Manajemen Lingkungan**: Mengelola API key secara aman melalui file `.env` untuk pengaturan yang mulus dan aman.
+* **🚀⚡ Optimisasi & Observabilitas API**: Memanfaatkan **Groq** untuk panggilan API yang lebih cepat dan efisien ke model bahasa, serta **Helicone** untuk memantau, melakukan *debug*, dan menganalisis penggunaan API.
+* **💬📝 Titik Masuk Percakapan Interaktif**: Skrip ini berfungsi sebagai terminal interaktif untuk mengeksekusi dan mengelola kueri percakapan secara *real-time*.
+* **🔧🛠 Orkestrasi Dependensi**: Menangani semua dependensi dan konfigurasi yang diperlukan untuk memastikan aplikasi berjalan lancar.
+* **🌐🌟 Siap Diintegrasikan**: Dapat dengan mudah disematkan ke dalam aplikasi yang lebih besar untuk meningkatkan fungsionalitas berbasis AI.
 
-### Prerequisites
-Make sure you have the following installed:
-* [Node.js](https://nodejs.org/en/) (which includes npm)
+---
+
+## Teknologi yang Digunakan 🛠️
+* **Bahasa Utama**: JavaScript
+* **Lingkungan Runtime**: Node.js
+* **Penyedia LLM**: Groq
+* **Platform Observabilitas**: Helicone
+* **Manajer Paket**: npm
+* **Kontrol Versi**: Git
+
+---
+
+## Cara Memulai 🏁
+Ikuti langkah-langkah berikut untuk menyiapkan dan menjalankan proyek ini di lingkungan lokal Anda.
+
+### Prasyarat
+Pastikan Anda telah menginstal perangkat lunak berikut:
+* [Node.js](https://nodejs.org/en/) (sudah termasuk npm)
 * [Git](https://git-scm.com/)
 
-### Installation
-1.  **Clone the repository:**
+### Instalasi
+1.  **Clone repositori ini:**
     ```bash
     git clone [https://github.com/kzherdinnn/Project-Helicone.git](https://github.com/kzherdinnn/Project-Helicone.git)
     ```
 
-2.  **Navigate to the project directory:**
+2.  **Masuk ke direktori proyek:**
     ```bash
     cd Project-Helicone
     ```
 
-3.  **Install dependencies:**
+3.  **Instal semua dependensi:**
     ```bash
     npm install
     ```
-4.  **Set up environment variables:**
-    Create a `.env` file in the root of the project and add your API keys:
+4.  **Siapkan variabel lingkungan:**
+    Buat file `.env` di direktori utama proyek dan tambahkan API key Anda:
     ```env
-    GROQ_API_KEY="gsk_YourGroqApiKey"
-    HELICONE_API_KEY="sk-helicone-YourHeliconeApiKey"
+    GROQ_API_KEY="gsk_ApiKeyGroqAnda"
+    HELICONE_API_KEY="sk-helicone-ApiKeyHeliconeAnda"
     ```
 
-### Usage
-Run the interactive script from your terminal:
+### Penggunaan
+Jalankan skrip interaktif dari terminal Anda:
 ```bash
 node demo.js
